@@ -1,0 +1,18 @@
+li.active> a, li> a:hover {
+    color: #000;
+    background: #cf9a65;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+ul li a {
+    color: #000;
+    display: block;
+    padding: 40px 15px;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    margin: 13px 10px;
+}
